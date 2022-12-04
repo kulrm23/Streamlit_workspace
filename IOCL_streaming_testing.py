@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide",)
 
 # Read csv
-dataset_url = "E:\\GUI\\GUI\\Dataset\\IOCL\\vibration\\compressors\\"
+dataset_url = "C:\Users\KuldeepRana\OneDrive - si2tech\Documents\GitHub\Streamlit_workspace"
 def get_data() -> pd.DataFrame:
 
     return pd.read_csv(dataset_url)
